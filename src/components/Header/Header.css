@@ -19,7 +19,7 @@ nav {
   align-items: center;
 }
 
-nav > h1 {
+nav > a {
   font-size: 3.5rem;
   rotate: -11deg;
   background: transparent;
@@ -30,18 +30,19 @@ nav > h1 {
   display: flex;
   height: 100%;
   background: transparent;
+  justify-content: center;
+  align-items: center;
 }
 
-.navButtons > button {
-  height: 100%;
+.navButtons > a {
+  height: 30%;
   background: transparent;
   border: 0;
-  padding: 1px 12px;
+  padding: 9% 13px;
   font-size: 1.65rem;
-  color: inherit;
   transition: background-color 0.45s;
 }
 
-.navButtons > button:hover {
+.navButtons > a:hover {
   background-color: #121212;
 }

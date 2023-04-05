@@ -4,3 +4,17 @@ main {
   display: flex;
   justify-content: center;
 }
+
+main > section {
+  width: 90%;
+  height: 80%;
+  margin-top: 13vh;
+  display: flex;
+  background: #201c1c;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+}
