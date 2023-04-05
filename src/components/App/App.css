@@ -18,3 +18,27 @@ main > section {
   position: relative;
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
 }
+
+.sectionHeader {
+  font-size: 3rem;
+  color: rgb(0 205 0);
+  margin-bottom: 6%;
+}
+
+.sectionImg {
+  height: 50%;
+  width: 40%;
+}
+
+.infoContainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 1.2rem;
+  height: 50%;
+  width: 45%;
+}
+
+.infoContainer > p > span {
+  color: white;
+}
