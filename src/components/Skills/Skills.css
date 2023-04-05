@@ -7,6 +7,11 @@
   width: 40%;
 }
 
+.skillsHeader {
+  font-size: 3rem;
+  color: rgb(0 205 0);
+}
+
 .skillBlocks {
   padding: 0;
   width: 100%;
@@ -16,4 +21,39 @@
   flex-flow: wrap;
   column-gap: 1.2rem;
   row-gap: 1.2rem;
+}
+
+@media screen and (max-width: 63rem) {
+  .skills {
+    flex-flow: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .skills > img {
+    width: 30%;
+  }
+
+  .skillsInfo {
+    justify-content: flex-start;
+    width: 60%;
+  }
+
+  .skillsHeader {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 44rem) {
+  .skillsInfo {
+    width: 80%;
+  }
+  
+  .skillsHeader {
+    font-size: 1.25rem;
+  }
+
+  .skills > img {
+    width: 50%;
+  }
 }

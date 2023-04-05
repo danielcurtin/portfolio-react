@@ -7,6 +7,67 @@
   width: 45%;
 }
 
-.aboutInfo > p > span {
+.aboutHeader {
+  color: rgb(0 205 0);
+  margin-bottom: 6%;
+}
+
+.aboutBlurb {
+  color: lightgreen;
+}
+
+.aboutBlurb > span {
   color: white;
+}
+
+@media screen and (min-width: 66rem) {
+  .aboutHeader {
+    font-size: 3rem;
+  }
+  
+  .aboutBlurb {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 57rem) {
+  .about {
+    flex-flow: column-reverse;
+  }
+
+  .aboutHeader {
+    font-size: 2rem;
+  }
+
+  .aboutInfo {
+    width: 90%;
+  }
+
+  .about > img {
+    width: 90%;
+  }
+
+  .aboutBlurb {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 26rem) {
+  .aboutHeader {
+    font-size: 1.5rem;
+  }
+
+  .aboutBlurb {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-height: 45rem) {
+  .aboutHeader {
+    font-size: 1.5rem;
+  }
+
+  .aboutBlurb {
+    font-size: 1rem;
+  }
 }

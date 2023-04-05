@@ -11,7 +11,7 @@ const Skills = ({ skills }) => {
     <section className='skills'>
       <img src={skillsImg} alt="" className="sectionImg"></img>
       <div className="skillsInfo">
-          <h2 className="sectionHeader">Skills</h2>
+          <h2 className="skillsHeader">Skills</h2>
           <ul className='skillBlocks'>
             {skillItems}
           </ul>

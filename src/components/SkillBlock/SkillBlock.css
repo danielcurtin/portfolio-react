@@ -1,5 +1,5 @@
 .skillItem {
-  height: 8vh;
+  height: 5rem;
   width: 40%;
   display: flex;
   align-items: center;
@@ -9,10 +9,24 @@
   font-size: 1.5rem;
   border-radius: 10px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
-  transition: background-color 0.4s, scale 0.4s;
+  transition: background-color 0.4s, transform 0.4s;
 }
 
 .skillItem:hover {
   background-color: #282424;
-  scale: 1.05;
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 67rem) {
+  .skillItem {
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen  and (max-width: 44rem) {
+  .skillItem {
+    height: 2.5rem;
+    font-size: 0.75rem;
+  } 
 }
