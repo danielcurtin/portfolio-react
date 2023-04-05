@@ -1,0 +1,12 @@
+.aboutInfo {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 1.2rem;
+  height: 50%;
+  width: 45%;
+}
+
+.aboutInfo > p > span {
+  color: white;
+}

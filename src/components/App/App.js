@@ -14,7 +14,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-
+      skills: ['React', 'JavaScript', 'HTML', 'CSS', 'ExpressJS', 'PostgreSQL', 'Cypress', 'Mocha & Chai', 'Git & GitHub']
     };
   };
 
@@ -27,7 +27,7 @@ class App extends React.Component {
           if (match.params.path === 'about') {
             return <About />
           } else if (match.params.path === 'skills') {
-            return <Skills />
+            return <Skills skills={this.state.skills} />
           } else if (match.params.path === 'projects') {
             return <Projects />
           } else if (match.params.path === 'contact') {
