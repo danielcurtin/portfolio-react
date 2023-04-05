@@ -1,0 +1,47 @@
+header {
+  height: 10%;
+  width: 100%;
+  background: #201c1c;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  color: inherit;
+}
+
+nav {
+  height: 100%;
+  width: 97%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > h1 {
+  font-size: 3.5rem;
+  rotate: -11deg;
+  background: transparent;
+  cursor: pointer;
+}
+
+.navButtons {
+  display: flex;
+  height: 100%;
+  background: transparent;
+}
+
+.navButtons > button {
+  height: 100%;
+  background: transparent;
+  border: 0;
+  padding: 1px 12px;
+  font-size: 1.65rem;
+  color: inherit;
+  transition: background-color 0.45s;
+}
+
+.navButtons > button:hover {
+  background-color: #121212;
+}

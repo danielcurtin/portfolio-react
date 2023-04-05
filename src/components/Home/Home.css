@@ -1,0 +1,57 @@
+.home {
+  width: 90%;
+  height: 80%;
+  margin-top: 13vh;
+  display: flex;
+  background: #201c1c;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.homeBg {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 6%, transparent 7%);
+  background-position: 0% 0%;
+  background-size: 11.5vmin 11.5vmin;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.intro {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem;
+  max-width: 66ch;
+  background: #201c1c;
+  position: relative;
+  z-index: 2;
+}
+
+.intro > p,
+.blurb {
+  color: lightgreen;
+  padding-left: 2px;
+  background: inherit;
+  font-size: 1.2rem;
+}
+
+.intro > h1 {
+  background: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+}
+  
+.intro > h2 {
+  font-size: 2.5rem;
+  color: rgb(0 205 0);
+}
+
+.blurb {
+  line-height: 1.5rem;
+  max-width: 45ch;
+}
